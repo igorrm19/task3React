@@ -35,7 +35,7 @@ function App() {
   return (
     <>
 
-      <div style={{ border: "1px solid #ccc", padding: "16px", width: "250px" }}>
+      <div style={{ backgroundColor: "blueviolet", border: "1px solid #000000ff", borderRadius: "20%", padding: "16px", width: "250px", height: "300px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
         <img
           src={userData.picture.large}
           alt="User"
